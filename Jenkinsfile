@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         IMAGE = "14prajwal/my-app"
-        DOCKERHUB_CREDS = credentials('dockerhub-creds-id')
+        DOCKERHUB_CREDS = credentials('dockerhub-creds')
     }
 
     stages {
